@@ -71,7 +71,7 @@ The code I have written iterates through the file looking for distinct candidate
 <br />
 Pictured: Python code (<a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png">1</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png">2</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png">3</a>)
 <br /><br />
-Key portions of the code include connecting with the .csv file provided, using conditional if statements and storing distinct information on the candidates voted for and the counties where people voted, then also tracking and counting each ballot for each, calculating the total votes and percentage of votes, and last but not least printing the totals to a new file for Tom.
+Key portions of the code include: connecting with the .csv file provided; using conditional if statements and storing distinct information on the candidates who were voted for and the counties where people voted; tracking and counting each ballot for each; calculating the total votes and percentage of votes; and, last but not least, printing the totals to a new file for Tom.
 
 To connect with our source file (and to designate a spot for the write file), I created the variable "file-to-load" and used the python os library function "os.path.join":
 
