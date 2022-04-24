@@ -4,8 +4,8 @@
 
 ## Project Overview
 
-![Tom Colorado](summary_assets/TomColorado.png)
-<img src="https://github.com/miwermi/election-analysis/summary_assets/TomColorado.png" width="300" height="174">
+<!--![Tom Colorado](summary_assets/TomColorado.png)-->
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/TomColorado.png" width="500" height="290" alt ="graphic: Tom's Colorado Counties">
 Pictured: Tom's Colorado Counties
 
 A Colorado Board of Elections employee, Tom, has asked for help with the following tasks for an election audit of a recent local congressional election:
@@ -52,8 +52,7 @@ The winner of the election was:
 ## Challenge Overview
 For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precint:
 
-![Tom Colorado](summary_assets/VSterminal.png)
-<img src="https://github.com/miwermi/election-analysis/summary_assets/TVSterminal.png" width="400" height="276">
+![VSterminal Output](summary_assets/VSterminal.png)
 Pictured: VScode Terminal Window results from running Python code.
 
 The Python code writes the data above to a text file as well.
