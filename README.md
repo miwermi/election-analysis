@@ -55,6 +55,7 @@ The results of our code should generate a text file that has the following infor
 
 ## Challenge Overview
 For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. If successful, the code I have writted will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  The code I have written is described below:
+<br />
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="280" height="379" alt ="graphic: code (1)"> &nbsp; 
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="280" height="379" alt ="graphic: code (2)"> &nbsp; 
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png" width="280" height="379" alt ="graphic: code (3)"> &nbsp; 
@@ -68,10 +69,30 @@ Pictured: Python code.
 
 By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precint:
 
-![VSterminal Output](summary_assets/VSterminal.png)
-Pictured: VScode Terminal Window results from running Python code.
+    Election Results
+    -------------------------
+    Total Votes: 369,711
+    -------------------------
+    County Votes:
+    Jefferson: 10.5% (38,855)
+    Denver: 82.8% (306,055)
+    Arapahoe: 6.7% (24,801)
+    -------------------------
+    Largest County Turnout: Denver
+    -------------------------
+    Charles Casper Stockham: 23.0% (85,213)
+    Diana DeGette: 73.8% (272,892)
+    Raymon Anthony Doane: 3.1% (11,606)
+    -------------------------
+    Winner: Diana DeGette
+    Winning Vote Count: 272,892
+    Winning Percentage: 73.8%
+    -------------------------
 
-The Python code writes the data above to a text file as well.
+
+Pictured: VScode Terminal Window results from running Python code. (<a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/VStermina.png">PNG</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/results/election-results.txt">TXT</a>
+
+The Python code writes the data above to a text file as well (linked above).
 
 Once these initial audit results are confirmed successful, Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use my code to automate election tabulation for all Colorado precincts.  
 
