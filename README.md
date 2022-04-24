@@ -56,7 +56,11 @@ The results of our code should generate a text file that has the following infor
 ## Challenge Overview
 For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. If successful, the code I have writted will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
 
-The code I have written is pictured and described below:
+The data Tom has provide is a .csv file that includes the following information:
+    +------------+---------------+-------------------------------+ | Ballot ID | County | Candidate |
+    +------------+---------------+-------------------------------+
+
+The code I have written iterates through the file looking for distinct candidates and distinct counties, then counts the votes for each. The full code is pictured and linked below, and key portions are described below that:
 <br />
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="240" height="325" alt ="graphic: code (1)"> &nbsp;&nbsp; 
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="240" height="325" alt ="graphic: code (2)"> &nbsp;&nbsp; 
