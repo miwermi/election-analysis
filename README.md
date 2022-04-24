@@ -57,7 +57,9 @@ The results of our code should generate a text file that has the following infor
 For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. If successful, the code I have writted will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
 
 The data Tom has provide is a .csv file that includes the following information:
-    | Ballot ID | County | Candidate |
+    | Ballot ID | County  | Candidate |
+    | --------- | ------- | --------- |
+    | Content   | Content | Content   |
 
 The code I have written iterates through the file looking for distinct candidates and distinct counties, then counts the votes for each. The full code is pictured and linked below, and key portions are described below that:
 <br />
@@ -95,11 +97,13 @@ By writing Python code to run through this dataset to find and count votes for e
     -------------------------
 
 
-Pictured: VScode Terminal Window results from running Python code. (<a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/VStermina.png">PNG</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/results/election-results.txt">TXT</a>
+Pictured: VScode Terminal Window results from running Python code. (<a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/VStermina.png">PNG</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/results/election-results.txt">TXT</a>)
 
-The Python code writes the data above to a text file as well (linked above).
+The Python code displays the code on screen during program run, but also writes the data above to a text file (linked above), which is far more useful to Tom and his constituents.
 
 Once these initial audit results are confirmed successful, Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use my code to automate election tabulation for all Colorado precincts.  
 
 
-## Cahllenge Summary
+## Challenge Summary
+
+Ideally, this code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if we were able to gather and use that information. Since elections are typically anonymous, there is always a margin of error (especially when independent units - districts, states, etc - do not use the same standard to ID voters or the same standard for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as the voting information.
