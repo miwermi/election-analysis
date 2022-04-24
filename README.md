@@ -9,7 +9,7 @@ A Colorado Board of Elections employee, Tom, has asked for help with an election
 <!--![Tom Colorado](summary_assets/TomColorado.png)-->
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/TomColorado.png" width="600" height="348" alt ="graphic: Tom's Colorado Counties">
 Pictured: Tom's Colorado Counties
-
+<br /><br />
 
 The tasks for this election audit of Tom's precinct are:
 
@@ -26,34 +26,33 @@ The tasks for this election audit of Tom's precinct are:
 ### Summary: PseudoCode of Output / Results Description
 The results of our code should generate a text file that has the following information included in it:
 
-<div style="padding: 10px; font-size: .75 em;">
-Election Results:
-There were "x" votes cast in the election
+    Election Results:
+    There were "x" votes cast in the election
 
-Collect Candidates:
-  - Candidate 1
-  - Candidate 2
-  - Candidate 3
-  - etc
+    Collect Candidates:
+      - Candidate 1
+      - Candidate 2
+      - Candidate 3
+      - etc
 
-Collect Counties:
-  - County 1
-  - County 2
-  - County 3
-  - etc
+    Collect Counties:
+      - County 1
+      - County 2
+      - County 3
+      - etc
 
-Largest County Turnout:
-Find the county with the most votes
+    Largest County Turnout:
+    Find the county with the most votes
 
-Candidate Results:
-* Candidate 1 received "x%" of the vote and "y" number of votes.
-* Candidate 2 received "x%" of the vote and "y" number of votes.
-* Candidate 3 received "x%" of the vote and "y" number of votes.
-* etc
+    Candidate Results:
+    * Candidate 1 received "x%" of the vote and "y" number of votes.
+    * Candidate 2 received "x%" of the vote and "y" number of votes.
+    * Candidate 3 received "x%" of the vote and "y" number of votes.
+    * etc
 
-The winner of the election was:
-  + Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
-</div>
+    The winner of the election was:
+      + Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
+
 ## Challenge Overview
 For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precint:
 
