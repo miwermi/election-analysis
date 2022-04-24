@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-![Tom Colorado](summary_assets/TomColorado.png)
+![Tom Colorado](summary_assets/TomColorado.png | width=100)
 
 Pictured: Tom's Colorado Counties
 
@@ -52,7 +52,7 @@ The winner of the election was:
 ## Challenge Overview
 For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precint:
 
-![Tom Colorado](summary_assets/VSterminal.png)
+![Tom Colorado](summary_assets/VSterminal.png | width=100)
 
 Pictured: VScode Terminal Window results from running Python code.
 
