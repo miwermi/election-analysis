@@ -54,13 +54,15 @@ The results of our code should generate a text file that has the following infor
       - Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
 
 ## Challenge Overview
-For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. If successful, the code I have writted will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  The code I have written is described below:
+For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. If successful, the code I have writted will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
+
+The code I have written is pictured and described below:
 <br />
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="280" height="379" alt ="graphic: code (1)"> &nbsp; 
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="280" height="379" alt ="graphic: code (2)"> &nbsp; 
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png" width="280" height="379" alt ="graphic: code (3)"> &nbsp; 
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="240" height="325" alt ="graphic: code (1)"> &nbsp;&nbsp; 
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="240" height="325" alt ="graphic: code (2)"> &nbsp;&nbsp; 
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png" width="240" height="325" alt ="graphic: code (3)"> &nbsp;&nbsp; 
 <br />
-Pictured: Python code.
+Pictured: Python code ( <a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png">1</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png">2</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png">3</a>)
 <br /><br />
 
 
