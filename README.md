@@ -138,8 +138,20 @@ To calculate the percentages, we needed a couple of new variables to hold the co
       candidate_results = (
           f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
           
-          
+At the end of each of the above 'for' loops (within the loop), the largest county and winning candidate were calculated:
 
+      #Calculate largest county:
+      if (covotes > largest_county_count) and (covote_percentage > largest_county_percentage):
+          largest_county_count = covotes
+          largest_county = county_name
+          largest_county_percentage = covote_percentage
+
+      #Determine the winner!
+      if (votes > winning_count) and (vote_percentage > winning_percentage):
+          winning_count = votes
+          winning_candidate = candidate_name
+          winning_percentage = vote_percentage
+          
             
 ## Challenge Summary
 
@@ -174,4 +186,4 @@ Once these initial audit results are confirmed successful, Tom and the Colorado 
 
 Ideally, this code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if we were able to gather and use that information. Since elections are typically anonymous, there is always a likely margin of error (especially when independent units - districts, states, etc - do not use the same standard to ID voters or the same standard for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as the voting information. I would feel much better about my code if that data could be collected and I could run a few queries to find duplicates or quirkly looking anomalies. 
 
-But that is always the dream... :)
+But perfect data is always the dream... :)
