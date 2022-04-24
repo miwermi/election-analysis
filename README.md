@@ -23,6 +23,7 @@ The tasks for this election audit of Tom's precinct are:
 * Data Source: election_results.csv
 * Software: Python 3.7.9, Visual Studio Code, 1.6.6
 
+<!---
 ### Summary: Pseudocode of Output / Results Description
 The results of our code should generate a text file that has the following information included in it:
 
@@ -157,7 +158,9 @@ At the end of each of the above 'for' loops (within the loop), the largest count
 
 By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precinct:
 
-    Election Results
+--->
+## Election-Audit Results
+
     -------------------------
     Total Votes: 369,711
     -------------------------
@@ -180,9 +183,11 @@ By writing Python code to run through this dataset to find and count votes for e
 
 Pictured: VScode Terminal Window results from running Python code. (<a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/VStermina.png">PNG</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/results/election-results.txt">TXT</a>)
 
+## Election-Audit Summary
+
 The Python code displays the code on screen during program run, but also writes the data above to a text file (linked above), which is far more useful to Tom and his constituents. 
 
-Once these initial audit results are confirmed successful, Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use my code to automate election tabulation for all of Colorado, very exciting!  
+Once these initial audit results are confirmed successful, I know Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use this code to automate election tabulation for all of Colorado, very exciting!  
 
 There are two ways to do this:
  - The first would be to store similar .csv files in a repository and use the python 'listdir' to find all of the files in the repository and to then create a new variable and array with a 'for' loop to pull every file in the repository through the program and then also make sure a similar index was added to the file name and loop through writing multiple results files.
