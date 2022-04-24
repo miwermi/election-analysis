@@ -185,7 +185,7 @@ Pictured: VScode Terminal Window results from running Python code. (<a href="htt
 
 ## Election-Audit Summary
 
-The Python code displays the code on screen during program run, but also writes the data above to a text file (linked above), which is far more useful to Tom and his constituents. 
+The Python code displays the results above on-screen during program run, but also writes the data to a text file (linked above), which is more useful to Tom and his constituents. 
 
 Once these initial audit results are confirmed successful, I know Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use this code to automate election tabulation for all of Colorado, very exciting!  
 
