@@ -196,7 +196,7 @@ There are two ways to do this:
     files_to_load = []
     for...
 
- - The second would be to add a column (or two) to the main data file and pull the data in for precinct as well (and/or state!)
+ - The second would be to add a column (or two) to the main data file and pull the data in for precinct as well (and/or state!), then duplicate the blocks for finding the totals, largest number, and calculating the percentage for those as well.
 
     | Ballot ID | Precinct | County  | Candidate |
     | --------- | -------- | ------- | --------- |
