@@ -27,7 +27,7 @@ The tasks for this election audit of Tom's precinct are:
 The results of our code should generate a text file that has the following information included in it:
 
     Election Results:
-    There were "x" votes cast in the election
+      - There were "x" votes cast in the election
 
     Collect Candidates:
       - Candidate 1
@@ -42,19 +42,30 @@ The results of our code should generate a text file that has the following infor
       - etc
 
     Largest County Turnout:
-    Find the county with the most votes
+      - Find the county with the most votes
 
     Candidate Results:
-    * Candidate 1 received "x%" of the vote and "y" number of votes.
-    * Candidate 2 received "x%" of the vote and "y" number of votes.
-    * Candidate 3 received "x%" of the vote and "y" number of votes.
-    * etc
+      - Candidate 1 received "x%" of the vote and "y" number of votes.
+      - Candidate 2 received "x%" of the vote and "y" number of votes.
+      - Candidate 3 received "x%" of the vote and "y" number of votes.
+      - etc
 
     The winner of the election was:
-      + Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
+      - Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
 
 ## Challenge Overview
-For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precint:
+For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. If successful, the code I have writted will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  The code I have written is described below:
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="200" height="271" alt ="graphic: code (1)">
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="200" height="271" alt ="graphic: code (2)">
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png" width="200" height="271" alt ="graphic: code (3)">
+Pictured: Python code.
+<br /><br />
+
+
+
+
+
+By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precint:
 
 ![VSterminal Output](summary_assets/VSterminal.png)
 Pictured: VScode Terminal Window results from running Python code.
