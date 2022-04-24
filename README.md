@@ -4,11 +4,14 @@
 
 ## Project Overview
 
+A Colorado Board of Elections employee, Tom, has asked for help with an election audit of a recent local congressional election.
+
 <!--![Tom Colorado](summary_assets/TomColorado.png)-->
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/TomColorado.png" width="500" height="290" alt ="graphic: Tom's Colorado Counties">
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/TomColorado.png" width="600" height="348" alt ="graphic: Tom's Colorado Counties">
 Pictured: Tom's Colorado Counties
 
-A Colorado Board of Elections employee, Tom, has asked for help with the following tasks for an election audit of a recent local congressional election:
+
+The tasks for this election audit of Tom's precinct are:
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
@@ -20,7 +23,8 @@ A Colorado Board of Elections employee, Tom, has asked for help with the followi
 * Data Source: election_results.csv
 * Software: Python 3.7.9, Visual Studio Code, 1.6.6
 
-### Summary / PseudoCode of Output / Results Description
+### Summary: PseudoCode of Output / Results Description
+The results of our code should generate a text file that has the following information included in it:
 
 Election Results:
 There were "x" votes cast in the election
