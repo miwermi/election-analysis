@@ -101,7 +101,7 @@ To track the votes as we count them, the 'with' statment was used (with the file
         #Start tracking candidate's vote count
         candidate_votes[candidate_name] = 0
 
-    #Add each vote to that candidate's count <<DO THIS
+    #Add each vote to that candidate's count <<COUNTVOTE
     candidate_votes[candidate_name] += 1
 
     #If the county does not match any existing county...
@@ -113,10 +113,10 @@ To track the votes as we count them, the 'with' statment was used (with the file
         #Start tracking the county's vote count
         county_votes[county_name] = 0
 
-    #Add a vote to that county's vote count <<DO THIS
+    #Add a vote to that county's vote count <<COUNTVOTE
     county_votes[county_name] += 1
     
-To calculate the percentages, we needed a couple of new variables to hold the count and candidate or county together and a line of code to designate those variables to be used as 'float' data so we could do the math. For both county and candidate totals, these were done in 'for' loops:
+To calculate the percentages, we needed a couple of new variables to hold the count - and the candidate or county - together... and a line of code to designate those variables to be used as 'float' data so we could do the math. For both county and candidate totals, these were done in 'for' loops:
 
   for county_name in county_votes:
 
@@ -202,6 +202,6 @@ There are two ways to do this:
     | --------- | -------- | ------- | --------- |
     | Content   | Content  | Content | Content   |
 
-Ideally, the final code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if we were able to gather and use that information. Since elections are typically anonymous, there is always a likely margin of error (especially when independent units - districts, states, etc. - do not use the same standard to ID voters or the same standard for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as the voting information. I would feel much better about my code if that data could be collected and I could run a few queries to find duplicates or quirky-looking anomalies and decide what might be best to do about them. 
+Ideally, the final code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if only we were able to gather and use that information! Since elections are typically anonymous, there is always a likely margin of error on the accuracy of the data collected (especially when independent units - districts, states, etc. - do not use the same standard voterIDs or the same standards for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as voting information, ever, and that is a good thing, becuase it involves the privacy of the voter. However... I would feel much better about my code if that data could be collected and I could run a few queries to find duplicates or quirky-looking anomalies and decide what might be best to do about them. 
 
 Perfect data is always the dream... :)
