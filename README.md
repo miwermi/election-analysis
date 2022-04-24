@@ -186,7 +186,11 @@ Once these initial audit results are confirmed successful, Tom and the Colorado 
 
 There are two ways to do this:
  - The first would be to store similar .csv files in a repostiory and create a new variable and array with a 'for' loop to pull every file in the repository through the program and then also make sure a similar index was added to the file name and loop through writing multiple results files.
- - The second would be to add a column or two to the one data file and pull the data in for precinct as well (and/or state!)
+    
+    files_to_load = []
+    for...
+
+ - The second would be to add a column (or two) to the main data file and pull the data in for precinct as well (and/or state!)
 
     | Ballot ID | Precinct | County  | Candidate |
     | --------- | -------- | ------- | --------- |
