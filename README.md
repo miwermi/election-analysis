@@ -71,10 +71,50 @@ The code I have written iterates through the file looking for distinct candidate
 <br />
 Pictured: Python code (<a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png">1</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png">2</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png">3</a>)
 <br /><br />
+Key portions of the code include connecting with the .csv file provided, using conditional if statements and storing distinct information on the candidates voted for and the counties where people voted, then also tracking and counting each ballot for each, calculating the total votes and percentage of votes, and last but not least printing the totals to a new file for Tom.
 
+To connect with our source file (and to designate a spot for the write file), I created the variable "file-to-load" and used the python os library function "os.path.join":
 
+    #Loads the file from path
+    file_to_load = os.path.join("resources", "election_results.csv")
+    #Saves the file to a path
+    file_to_save = os.path.join("analysis", "election_results.txt")
 
+Two arrays were used to store the candidate and county options, and two dictionaries were used to hold the candidate and county votes:
 
+    #Collects candidate options and votes
+    candidate_options = []
+    candidate_votes = {}
+
+    #Collects county options and votes
+    county_options = []
+    county_votes = {}
+    
+To track the votes as we count them, the with statment was used (with the file open...) and then a couple of conditional ifs for whether or not the candidate and county were new... 
+
+        #If the candidate does not match any existing candidate...
+        if candidate_name not in candidate_options:
+
+            #Add the candidate name to the candidate list
+            candidate_options.append(candidate_name)
+
+            #Start tracking candidate's vote count
+            candidate_votes[candidate_name] = 0
+
+        #Add each vote to that candidate's count <<DO THIS
+        candidate_votes[candidate_name] += 1
+
+        #If the county does not match any existing county...
+        if county_name not in county_options:
+
+            #Add the existing county to the list of counties.
+            county_options.append(county_name)
+
+            #Start tracking the county's vote count
+            county_votes[county_name] = 0
+
+        #Add a vote to that county's vote count <<DO THIS
+        county_votes[county_name] += 1
 
 ## Challenge Summary
 
