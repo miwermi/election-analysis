@@ -23,41 +23,31 @@ The tasks for this election audit of Tom's precinct are:
 * Data Source: election_results.csv
 * Software: Python 3.7.9, Visual Studio Code, 1.6.6
 
-<!---
-### Summary: Pseudocode of Output / Results Description
-The results of our code should generate a text file that has the following information included in it:
+### Election-Audit Results
+This audit generated the following information:
 
     Election Results:
-      - There were "x" votes cast in the election
+      - There were 369,711 votes cast in the election
 
-    Collect Candidates:
-      - Candidate 1
-      - Candidate 2
-      - Candidate 3
-      - etc.
+    Counties:
+      - Jefferson voters made up 10.5% of the total precinct vote with 38,855 voters
+      - Denver voters made up 82.8% of the total precinct vote with 306,055 voters
+      - Arapahoe voters made up 6.7% of the total precinct vote with 24,801 voters
 
-    Collect Counties:
-      - County 1
-      - County 2
-      - County 3
-      - etc.
-
-    Largest County Turnout:
-      - Find the county with the most votes
+    Largest County Turnout
+      - Denver
 
     Candidate Results:
-      - Candidate 1 received "x%" of the vote and "y" number of votes.
-      - Candidate 2 received "x%" of the vote and "y" number of votes.
-      - Candidate 3 received "x%" of the vote and "y" number of votes.
-      - etc.
+      - Charles Casper Stockham received 23.0% of the vote and 85,213 votes.
+      - Diana DeGette received 73.8% of the vote and 272,892 votes.
+      - Raymon Anthony Doane received: 3.1% of the vote and 11,606 votes.
 
     The winner of the election was:
       - Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
 
 ## Challenge Overview
-For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precinct. If successful, the code I have written will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
-
-The data Tom has provide is a .csv file that includes the following information:
+For this challenge, I worked with Tom to provide the above information from a dataset that Tom supplied. If verifited by the precinct, the code I have written will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
+The data Tom provided was a .csv file that included the following information:
 <br />
 
     | Ballot ID | County  | Candidate |
@@ -152,14 +142,11 @@ At the end of each of the above 'for' loops (within the loop), the largest count
           winning_count = votes
           winning_candidate = candidate_name
           winning_percentage = vote_percentage
-          
-            
-## Challenge Summary
+                      
+
+## Election-Audit Summary
 
 By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precinct:
-
---->
-## Election-Audit Results
 
     -------------------------
     Total Votes: 369,711
@@ -182,8 +169,6 @@ By writing Python code to run through this dataset to find and count votes for e
 
 
 Pictured: VScode Terminal Window results from running Python code. (<a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/VStermina.png">PNG</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/results/election-results.txt">TXT</a>)
-
-## Election-Audit Summary
 
 The Python code displays the results above on-screen during program run, but also writes the data to a text file (linked above), which is more useful to Tom and his constituents. 
 
