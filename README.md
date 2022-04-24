@@ -55,9 +55,10 @@ The results of our code should generate a text file that has the following infor
 
 ## Challenge Overview
 For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. If successful, the code I have writted will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  The code I have written is described below:
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="200" height="271" alt ="graphic: code (1)">
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="200" height="271" alt ="graphic: code (2)">
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png" width="200" height="271" alt ="graphic: code (3)">
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="280" height="379" alt ="graphic: code (1)"> &nbsp; 
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="280" height="379" alt ="graphic: code (2)"> &nbsp; 
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png" width="280" height="379" alt ="graphic: code (3)"> &nbsp; 
+<br />
 Pictured: Python code.
 <br /><br />
 
