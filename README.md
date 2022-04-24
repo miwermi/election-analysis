@@ -57,6 +57,8 @@ The results of our code should generate a text file that has the following infor
 For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. If successful, the code I have writted will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
 
 The data Tom has provide is a .csv file that includes the following information:
+<br />
+
     | Ballot ID | County  | Candidate |
     | --------- | ------- | --------- |
     | Content   | Content | Content   |
