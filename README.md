@@ -15,7 +15,7 @@ The tasks for this election audit of Tom's precinct are:
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candiate received.
+3. Calculate the total number of votes each candidate received.
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular vote.
 
@@ -23,7 +23,7 @@ The tasks for this election audit of Tom's precinct are:
 * Data Source: election_results.csv
 * Software: Python 3.7.9, Visual Studio Code, 1.6.6
 
-### Summary: PseudoCode of Output / Results Description
+### Summary: Pseudocode of Output / Results Description
 The results of our code should generate a text file that has the following information included in it:
 
     Election Results:
@@ -33,13 +33,13 @@ The results of our code should generate a text file that has the following infor
       - Candidate 1
       - Candidate 2
       - Candidate 3
-      - etc
+      - etc.
 
     Collect Counties:
       - County 1
       - County 2
       - County 3
-      - etc
+      - etc.
 
     Largest County Turnout:
       - Find the county with the most votes
@@ -48,13 +48,13 @@ The results of our code should generate a text file that has the following infor
       - Candidate 1 received "x%" of the vote and "y" number of votes.
       - Candidate 2 received "x%" of the vote and "y" number of votes.
       - Candidate 3 received "x%" of the vote and "y" number of votes.
-      - etc
+      - etc.
 
     The winner of the election was:
       - Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
 
 ## Challenge Overview
-For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. If successful, the code I have writted will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
+For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precinct. If successful, the code I have written will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
 
 The data Tom has provide is a .csv file that includes the following information:
 <br />
@@ -78,7 +78,7 @@ Pictured: Python code (<a href="https://github.com/miwermi/election-analysis/blo
 
 ## Challenge Summary
 
-By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precint:
+By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precinct:
 
     Election Results
     -------------------------
