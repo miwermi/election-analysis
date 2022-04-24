@@ -63,7 +63,7 @@ The data Tom has provide is a .csv file that includes the following information:
     | --------- | ------- | --------- |
     | Content   | Content | Content   |
 
-The code I have written iterates through the file looking for distinct candidates and distinct counties, then counts the votes for each. The full code is pictured and linked below, and key portions are described below that:
+The code I have written iterates through the file looking for distinct candidates and distinct counties, then counts the votes for each. The full code is pictured and linked below, and key portions are described below the images:
 <br />
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="240" height="325" alt ="graphic: code (1)"> &nbsp;&nbsp; 
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="240" height="325" alt ="graphic: code (2)"> &nbsp;&nbsp; 
@@ -75,6 +75,8 @@ Pictured: Python code (<a href="https://github.com/miwermi/election-analysis/blo
 
 
 
+
+## Challenge Summary
 
 By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precint:
 
@@ -101,11 +103,10 @@ By writing Python code to run through this dataset to find and count votes for e
 
 Pictured: VScode Terminal Window results from running Python code. (<a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/VStermina.png">PNG</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/results/election-results.txt">TXT</a>)
 
-The Python code displays the code on screen during program run, but also writes the data above to a text file (linked above), which is far more useful to Tom and his constituents.
+The Python code displays the code on screen during program run, but also writes the data above to a text file (linked above), which is far more useful to Tom and his constituents. 
 
-Once these initial audit results are confirmed successful, Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use my code to automate election tabulation for all Colorado precincts.  
+Once these initial audit results are confirmed successful, Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use my code to automate election tabulation for all of Colorado, very exciting!  
 
+Ideally, this code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if we were able to gather and use that information. Since elections are typically anonymous, there is always a likely margin of error (especially when independent units - districts, states, etc - do not use the same standard to ID voters or the same standard for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as the voting information. I would feel much better about my code if that data could be collected and I could run a few queries to find duplicates or quirkly looking anomalies. 
 
-## Challenge Summary
-
-Ideally, this code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if we were able to gather and use that information. Since elections are typically anonymous, there is always a margin of error (especially when independent units - districts, states, etc - do not use the same standard to ID voters or the same standard for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as the voting information.
+But that is always the dream... :)
