@@ -192,7 +192,7 @@ There are two ways to do this:
     from os import listdir
     from os.path import isfile...
     
-    #Store (hopefully well-nameed) file list and loop through (around all other already written code)
+    #Store and loop through the (hopefully well-named) file list.  (All other already written code would be placed within this loop.)
     files_to_load = []
     for...
 
