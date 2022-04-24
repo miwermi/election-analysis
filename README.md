@@ -26,6 +26,7 @@ The tasks for this election audit of Tom's precinct are:
 ### Summary: PseudoCode of Output / Results Description
 The results of our code should generate a text file that has the following information included in it:
 
+<div style="padding: 10px; font-size: .75 em;">
 Election Results:
 There were "x" votes cast in the election
 
@@ -52,7 +53,7 @@ Candidate Results:
 
 The winner of the election was:
   + Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
-
+</div>
 ## Challenge Overview
 For this challenge, I am working with Tom to provide the above information from a dataset that Tom has supplied for his precint. By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precint:
 
