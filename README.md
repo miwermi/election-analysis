@@ -64,10 +64,10 @@ The data Tom has provide is a .csv file that includes the following information:
     | Content   | Content | Content   |
 
 The code I have written iterates through the file looking for distinct candidates and distinct counties, then counts the votes for each. The full code is pictured and linked below, and key portions are described below the images:
-<br />
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="240" height="325" alt ="graphic: code (1)"> &nbsp;&nbsp; 
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="240" height="325" alt ="graphic: code (2)"> &nbsp;&nbsp; 
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png" width="240" height="325" alt ="graphic: code (3)"> &nbsp;&nbsp; 
+<br /><br />
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="220" height="298" alt ="graphic: code (1)"> &nbsp;&nbsp; 
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="220" height="298" alt ="graphic: code (2)"> &nbsp;&nbsp; 
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png" width="220" height="298" alt ="graphic: code (3)"> &nbsp;&nbsp; 
 <br />
 Pictured: Python code (<a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png">1</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png">2</a> | <a href="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code3.png">3</a>)
 <br /><br />
