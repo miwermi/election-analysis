@@ -185,9 +185,14 @@ The Python code displays the code on screen during program run, but also writes 
 Once these initial audit results are confirmed successful, Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use my code to automate election tabulation for all of Colorado, very exciting!  
 
 There are two ways to do this:
- - The first would be to store similar .csv files in a repository and create a new variable and array with a 'for' loop to pull every file in the repository through the program and then also make sure a similar index was added to the file name and loop through writing multiple results files.
+ - The first would be to store similar .csv files in a repository and use the python 'listdir' to find all of the files in the repository and to then create a new variable and array with a 'for' loop to pull every file in the repository through the program and then also make sure a similar index was added to the file name and loop through writing multiple results files.
 <br />
 
+    #Import list of files
+    from os import listdir
+    from os.path import isfile...
+    
+    #Store (hopefully well-nameed) file list and loop through (around all other already written code)
     files_to_load = []
     for...
 
