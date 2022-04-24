@@ -185,8 +185,9 @@ The Python code displays the code on screen during program run, but also writes 
 Once these initial audit results are confirmed successful, Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use my code to automate election tabulation for all of Colorado, very exciting!  
 
 There are two ways to do this:
- - The first would be to store similar .csv files in a repostiory and create a new variable and array with a 'for' loop to pull every file in the repository through the program and then also make sure a similar index was added to the file name and loop through writing multiple results files.
-    
+ - The first would be to store similar .csv files in a repository and create a new variable and array with a 'for' loop to pull every file in the repository through the program and then also make sure a similar index was added to the file name and loop through writing multiple results files.
+<br />
+
     files_to_load = []
     for...
 
@@ -196,6 +197,6 @@ There are two ways to do this:
     | --------- | -------- | ------- | --------- |
     | Content   | Content  | Content | Content   |
 
-Ideally, the final code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if we were able to gather and use that information. Since elections are typically anonymous, there is always a likely margin of error (especially when independent units - districts, states, etc - do not use the same standard to ID voters or the same standard for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as the voting information. I would feel much better about my code if that data could be collected and I could run a few queries to find duplicates or quirkly looking anomalies. 
+Ideally, the final code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if we were able to gather and use that information. Since elections are typically anonymous, there is always a likely margin of error (especially when independent units - districts, states, etc. - do not use the same standard to ID voters or the same standard for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as the voting information. I would feel much better about my code if that data could be collected and I could run a few queries to find duplicates or quirky-looking anomalies. 
 
 Perfect data is always the dream... :)
