@@ -23,29 +23,29 @@ The tasks for this election audit of Tom's precinct are:
 * Data Source: election_results.csv
 * Software: Python 3.7.9, Visual Studio Code, 1.6.6
 
-### Election-Audit Results
+## Election-Audit Results
 This audit generated the following information:
 
-    Election Results:
-      - There were 369,711 votes cast in the election
+Election Results:
+  - There were 369,711 votes cast in the election
 
-    Counties:
-      - Jefferson voters made up 10.5% of the total precinct vote with 38,855 voters
-      - Denver voters made up 82.8% of the total precinct vote with 306,055 voters
-      - Arapahoe voters made up 6.7% of the total precinct vote with 24,801 voters
+Counties:
+  - Jefferson voters made up 10.5% of the total precinct vote with 38,855 voters
+  - Denver voters made up 82.8% of the total precinct vote with 306,055 voters
+  - Arapahoe voters made up 6.7% of the total precinct vote with 24,801 voters
 
-    Largest County Turnout
-      - Denver
+Largest County Turnout
+  - Denver
 
-    Candidate Results:
-      - Charles Casper Stockham received 23.0% of the vote and 85,213 votes.
-      - Diana DeGette received 73.8% of the vote and 272,892 votes.
-      - Raymon Anthony Doane received: 3.1% of the vote and 11,606 votes.
+Candidate Results:
+  - Charles Casper Stockham received 23.0% of the vote and 85,213 votes.
+  - Diana DeGette received 73.8% of the vote and 272,892 votes.
+  - Raymon Anthony Doane received: 3.1% of the vote and 11,606 votes.
 
-    The winner of the election was:
-      - Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
+The winner of the election was:
+  - Candidate (1,2, or 3), who received "y" number of votes and "x%" of the total votes.
 
-## Challenge Overview
+### Code Overview
 For this challenge, I worked with Tom to provide the above information from a dataset that Tom supplied. If verifited by the precinct, the code I have written will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
 The data Tom provided was a .csv file that included the following information:
 <br />
