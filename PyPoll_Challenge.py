@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-"""PyPoll Homework Challenge Solution."""
+"""PyPoll Homework Challenge Solution - MWerner"""
 
 # Add our dependencies.
 import csv
@@ -10,11 +10,11 @@ file_to_load = os.path.join("resources", "election_results.csv")
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_results.txt")
 
-# Initialize a total vote counter.
+# Initialize a total vote counter -- and total county vote counter
 total_votes = 0
 total_covotes = 0
 
-# Candidate Options and candidate votes.
+# Candidate options list and candidate votes dictionary.
 candidate_options = []
 candidate_votes = {}
 
@@ -22,7 +22,7 @@ candidate_votes = {}
 county_options = []
 county_votes = {}
 
-# Track the winning candidate, vote count and percentage
+# Track the winning candidate, vote count and percentage.
 winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
@@ -42,7 +42,7 @@ with open(file_to_load) as election_data:
     # For each row in the CSV file.
     for row in reader:
 
-        # Add to the total vote count
+        # Add to the total vote count of candidate votes and votes per county.
         total_votes = total_votes + 1
         total_covotes = total_covotes + 1
 
@@ -52,20 +52,19 @@ with open(file_to_load) as election_data:
         # 3: Extract the county name from each row.
         county_name = row[1]
 
-        # If the candidate does not match any existing candidate add it to
-        # the candidate list
+        # If the candidate does not match any existing candidate, add it to the candidate list.
         if candidate_name not in candidate_options:
 
             # Add the candidate name to the candidate list.
             candidate_options.append(candidate_name)
 
-            # And begin tracking that candidate's voter count.
+            # Start tracking candidate's vote count.
             candidate_votes[candidate_name] = 0
 
-        # Add a vote to that candidate's count
+        # Add each vote to that candidate's count.
         candidate_votes[candidate_name] += 1
 
-        # 4a: Write an if statement that checks that the
+        # 4a: Write an if statement that checks...
         # county does not match any existing county in the county list.
         if county_name not in county_options:
 
