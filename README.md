@@ -1,10 +1,8 @@
-                                                                                           Michelle Werner (4/17/2022)
+                                                                                           Michelle Werner (4/24/2022)
 # Election Analysis
 ---
 
 ## Project Overview
-
-Intially this project was about client Steve, who was evaluating green energy stocks for his parents. The initial analysis of the DQ stock they had chosen indicated that it had lost value and wasn't the best investment. Following that discovery, Steve asked for help to design a program that could look at multiple stocks simultaneously and compare changes in their stock values. 
 
 ![Tom Colorado](summary_assets/TomColorado.png)
 
@@ -57,6 +55,8 @@ For this challenge, I am working with Tom to provide the above information from 
 ![Tom Colorado](summary_assets/VSterminal.png)
 
 Pictured: VScode Terminal Window results from running Python code.
+
+The Python code writes the data above to a text file as well.
 
 Once these initial audit results are confirmed successful, Tom and the Colorado Board of Elections are hoping to collect similar data files from all Colorado precincts and use my code to automate election tabulation for all Colorado precincts.  
 
