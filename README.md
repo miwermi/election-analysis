@@ -46,7 +46,8 @@ This audit generated the following information about the election results:
   - Diana DeGette who received 272,892 votes and 73.8% of the total votes.
 
 ### Code Overview
-For this challenge, I worked with Tom to provide the above information from a dataset that Tom supplied. If verifited by the precinct, the code I have written will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.  
+I worked with Tom to calculate and provide the above information from a dataset that Tom supplied. If verified by the precinct, the code I have written will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.
+
 The data Tom provided was a .csv file that included the following information:
 <br />
 
@@ -54,7 +55,7 @@ The data Tom provided was a .csv file that included the following information:
     | --------- | ------- | --------- |
     | Content   | Content | Content   |
 
-The code I have written iterates through the file looking for distinct candidates and distinct counties, then counts the votes for each. The full code is pictured and linked below, and key portions are described below the images:
+My code iterates through the file looking for distinct candidates and distinct counties, then counts the votes for each. The full code is pictured and linked below, and key portions are described below the images:
 <br /><br />
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code1.png" width="220" height="298" alt ="graphic: code (1)"> &nbsp;&nbsp; 
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/code2.png" width="220" height="298" alt ="graphic: code (2)"> &nbsp;&nbsp; 
@@ -81,7 +82,7 @@ Two arrays were used to store the candidate and county options, and two dictiona
     county_options = []
     county_votes = {}
     
-To track the votes as we count them, the 'with' statment was used (with the file open...) and then a couple of conditional 'if's for whether or not the candidate and county were new... 
+To track the votes as we count them, the 'with' statement was used (with the file open...) and then a couple of conditional 'if's to determine whether or not the candidate and county were new... 
 
     #If the candidate does not match any existing candidate...
     if candidate_name not in candidate_options:
@@ -192,6 +193,4 @@ There are two ways to do this:
     | --------- | -------- | ------- | --------- |
     | Content   | Content  | Content | Content   |
 
-Ideally, the final code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if only we were able to gather and use that information! Since elections are typically anonymous, there is always a likely margin of error on the accuracy of the data collected (especially when independent units - districts, states, etc. - do not use the same standard voterIDs or the same standards for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as voting information - ever. And that is a good thing, becuase it protects the privacy of the voter. However... I would feel much better about my code if that data could be collected and I could run a few queries to find duplicates or quirky-looking anomalies and decide what might be best to do about them. 
-
-Perfect data is always the dream... :)
+Ideally, the final code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if only we were able to gather and use that information! Since elections are typically anonymous, there is always a likely margin of error on the accuracy of the data collected (especially when independent units - districts, states, etc. - do not use the same standard voter IDs or the same standards for ballots).  Voter IDs and Ballot IDs will most likely never be stored in the same data source as voting information - ever. And that is a good thing, because it protects the privacy of the voter. However... I would feel much better about my code if that data could be collected and I could run a few queries to find duplicates or quirky-looking anomalies and decide what might be best to do about them. Perfect data is always the dream... :)
