@@ -1,15 +1,13 @@
-                                                                                           Michelle Werner (4/24/2022)
+<!--                                                                                           Michelle Werner (4/24/2022)-->
 # Election Analysis
 ---
 
 ## Project Overview
 
-A Colorado Board of Elections employee, Tom, has asked for help with an election audit of a recent local congressional election.
-
 <!--![Tom Colorado](summary_assets/TomColorado.png)-->
-<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/TomColorado.png" width="600" height="348" alt ="graphic: Tom's Colorado Counties">
-Pictured: Tom's Colorado Counties
-<br /><br />
+<img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/TomColorado.png" width="400" height="232" align="right" alt ="graphic: Tom's Colorado Counties">
+
+A Colorado Board of Elections employee, Tom, has asked for help with an election audit of a recent local congressional election. (Pictured: Tom's Colorado Counties)
 
 The tasks for this election audit of Tom's precinct are:
 
