@@ -4,10 +4,13 @@
 
 ## Project Overview
 
+
+A Colorado Board of Elections employee, Tom, has asked for help with an election audit of a recent local congressional election. 
+(Pictured: Tom's Colorado Counties)
+
 <!--![Tom Colorado](summary_assets/TomColorado.png)-->
 <img src="https://github.com/miwermi/election-analysis/blob/main/summary_assets/TomColorado.png" width="400" height="232" align="right" alt ="graphic: Tom's Colorado Counties">
 
-A Colorado Board of Elections employee, Tom, has asked for help with an election audit of a recent local congressional election. (Pictured: Tom's Colorado Counties)
 
 The tasks for this election audit of Tom's precinct are:
 
