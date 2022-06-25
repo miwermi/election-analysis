@@ -44,7 +44,7 @@ This audit generated the following information about the election results:
   - Diana DeGette who received 272,892 votes and 73.8% of the total votes.
 
 ### Code Overview
-I worked with Tom to calculate and provide the above information from a dataset that Tom supplied. If verified by the precinct, the code I have written will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.
+I wrote python code to calculate and provide the above information from a dataset that Tom supplied. If verified by the precinct, the code I have written will hopefully be able to be used to tally the same data from similar datasets for all precincts in the state.
 
 The data Tom provided was a .csv file that included the following information:
 <br />
@@ -106,7 +106,7 @@ To track the votes as we count them, the 'with' statement was used (with the fil
     #Add a vote to that county's vote count <<COUNTVOTE
     county_votes[county_name] += 1
     
-To calculate the percentages, we needed a couple of new variables to hold the count - and the candidate or county - together... and a line of code to designate those variables to be used as 'float' data so we could do the math. For both county and candidate totals, these were done in 'for' loops:
+To calculate the percentages, I needed a couple of new variables to hold the count - and the candidate or county - together... and a line of code to designate those variables to be used as 'float' data so math functions could be peformed on the data. For both county and candidate totals, this was done in for-loops:
 
   for county_name in county_votes:
 
@@ -145,7 +145,7 @@ At the end of each of the above 'for' loops (within the loop), the largest count
 
 ## Election-Audit Summary
 
-By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, Tom has received the following information for his precinct:
+By writing Python code to run through this dataset to find and count votes for each candidate and county in the file, I was able to provide Tom with the following information for his precinct:
 
     -------------------------
     Total Votes: 369,711
@@ -191,6 +191,6 @@ There are two ways to do this:
     | --------- | -------- | ------- | --------- |
     | Content   | Content  | Content | Content   |
 
-Ideally, the final code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if only we were able to gather and use that information. Since elections are typically anonymous, there is a likely margin of error on the accuracy of the data collected (especially when independent units - districts, states, etc. - do not use the same standard voter IDs or the same standards for ballots). Voter IDs and Ballot IDs will most likely never be stored in the same data source as voting information - ever - due to the need to protect the privacy of the voter. However, I would feel much better about my code being used to handle additional datasets if broadly-standardized data could be collected -- and if I could run a few queries to find duplicates or quirky-looking anomalies in the new data and decide what might be best to do about them. 
+Ideally, the final code would also search for distinct Ballot IDs -- and ultimately Voter IDs, if it were possible to gather and use that information. Since elections are typically anonymous, there is a likely margin of error on the accuracy of the data collected (especially when independent units - districts, states, etc. - do not use the same standard voter IDs or the same standards for ballots). Voter IDs and Ballot IDs will most likely never be stored in the same data source as voting information - ever - due to the need to protect the privacy of the voter. However, I would feel much better about my code being used to handle additional datasets if broadly-standardized data could be collected -- and if I could run a few queries to find duplicates or quirky-looking anomalies in the new data and decide what might be best to do about them. 
 
-Perfect data is always the dream :).
+Perfect data is always the dream!
